@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; 
+    color: #333;
+}
+main {
+    margin-top: 20px;
+}
+table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table th {
+    border: 1px solid white;
+    background-color: black; 
+    color: white; 
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+}
+
+.pe {
+    background-color: #ffcccc; 
+    color: brown;
+}
+
+.gec {
+    background-color: #ccffcc;
+    color: darkgreen; 
+}
+
+.itep205 {
+    background-color: #ccccff;
+    color: darkblue; 
+}
+
+.itep207{
+    background-color: lightcoral;
+    color: white;
+}
+
+.itep206 {
+    background-color: khaki;
+    color: darkred;
+}
+
+.itep204 {
+    background-color: #D8BFD8;
+    color: maroon;
+}
+
+.itel {
+    background-color: hotpink;
+    color: darkblue; 
+}
+
+a {
+    margin top: 20px;
+    color: blue; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media print {
+body {
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+body, main, header {
+    background-color: white;
+}
+img {
+    filter: grayscale(100%);
+}
+a {
+    color: black;
+}
+table th {
+    border: 1px solid black;
+    color: black;
+}
+
+.pe {
+    color: black;
+}
+
+.gec {
+    color: black; 
+}
+
+.itep205 {
+    color: black; 
+}
+
+.itep207{
+    color: black;
+}
+
+.itep206 {
+    color: black;
+}
+
+.itep204 {
+    color: black;
+}
+
+.itel {
+    color: black; 
+}
+}
+
+img {
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
